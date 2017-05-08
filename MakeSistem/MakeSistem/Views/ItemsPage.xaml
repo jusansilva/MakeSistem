@@ -30,7 +30,15 @@
                        LineBreakMode="NoWrap"
                        Style="{DynamicResource ListItemDetailTextStyle}"
                        FontSize="13"/>
-              </StackLayout>
+                <Label Text="{Binding Quantidade}"
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemQuantidadeTextStyle}"
+                       FontSize="13"/>
+                <Label Text="{Binding Valor}"
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemValorTextStyle}"
+                       FontSize="13"/>
+                </StackLayout>
             </ViewCell>
           </DataTemplate>
         </ListView.ItemTemplate>

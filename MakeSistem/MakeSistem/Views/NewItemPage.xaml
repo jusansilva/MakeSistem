@@ -6,10 +6,14 @@
 	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<StackLayout Spacing="20" Padding="15">
-			<Label Text="Text" FontSize="Medium" />
+			<Label Text="Item" FontSize="Medium" />
 			<Entry Text="{Binding Item.Text}" FontSize="Small" />
-			<Label Text="Description" FontSize="Medium" />
+			<Label Text="Descrição" FontSize="Medium" />
 			<Editor Text="{Binding Item.Description}" FontSize="Small" Margin="0" />
-		</StackLayout>
+            <Label Text="Quantidade" FontSize="Medium"/>
+            <Editor Text="{Binding Item.Quantidade}" FontSize="Small" Margin="0"/>
+            <Label Text="Valor" FontSize="Medium"/>
+            <Editor Text="{Binding Intem.Valor}" FontSize="Small" Margin="0"/>
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

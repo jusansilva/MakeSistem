@@ -6,5 +6,7 @@
 	<StackLayout Spacing="20" Padding="15">
 		<Label Text="{Binding Item.Text}" FontSize="Medium"/>
         <Label Text="{Binding Item.Description}" FontSize="Small"/>
+        <Label Text="{Binding Item.Quantidade}" FontSize="Small"/>
+        <Label Text="{Binding Item.Valor}" FontSize="Small"/>
     </StackLayout>
 </ContentPage>

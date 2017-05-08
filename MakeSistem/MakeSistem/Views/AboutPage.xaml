@@ -36,9 +36,8 @@
           <Label.FormattedText>
             <FormattedString>
               <FormattedString.Spans>
-                <Span Text="This app is written in C# and native APIs using the" />
+                <Span Text="Somos uma Aplicação de gerenciamento de Pequenos negocio " />
                 <Span Text=" "/>
-                <Span Text="Xamarin Platform" FontAttributes="Bold" />
                 <Span Text="." />
               </FormattedString.Spans>
             </FormattedString>
@@ -50,7 +49,7 @@
               <FormattedString.Spans>
                 <Span Text="It shares code with its" />
                 <Span Text=" "/>
-                <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
+                <Span Text="Estamso em iOS, Android, e Windows" FontAttributes="Bold" />
                 <Span Text=" "/>
                 <Span Text="versions." />
               </FormattedString.Spans>
@@ -58,7 +57,7 @@
           </Label.FormattedText>
         </Label>
         <Button Margin="0,10,0,0"
-                Text="Learn more" 
+                Text="Faça seu pedido!" 
                 Command="{Binding OpenWebCommand}"
                 BackgroundColor="{StaticResource Primary}"
                 TextColor="White"/>
